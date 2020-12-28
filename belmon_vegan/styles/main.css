@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    overflow: hidden;
+    margin: auto;
+    width: 90%;
+    height: auto;
+    padding: 15px;
+    font-size: 18px;
+    background-color: rgb(0, 0, 0);
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    border-radius: 50%;
+}
+
+@font-face {
+    font-family: Parisiennse;
+    src: url(../fonts/Parisienne/Parisienne-Regular.ttf);
+}
+
+.titulo {
+    position: absolute;
+    top: 33px;
+    left: 350px;
+    font-family: Parisiennse, Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    color: rgb(8, 146, 8);
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.menu li {
+    float: left;
+    color: white;
+    margin-right: 20px;
+    margin-top: 120px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-family: Parisiennse, Helvetica, sans-serif, Arial;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.menu a:hover {
+clearolor: lime;
+}
+
+.conteudo {
+    position: relative;
+    padding: 5%;
+}
+
+.top {
+    text-decoration: none;
+    float: right;
+    color: blue;
+    font-size: 20px;
+}
+
+#nacozinha {
+    margin-bottom: 50px;
+}
+
+#nacozinha h1,
+#cardapio h1,
+#sugestoes h1,
+#encomendas h1,
+#localizacao h1 {
+    position: relative;
+    top: 10px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.socios {
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+}
+
+.socio1 {
+    position: relative;
+    width: 50%;
+    margin: 5px;
+    padding: 5px;
+    border-right: 1px solid;
+}
+
+.socio1 img {
+    float: left;
+    width: 35%;
+    border: 1px solid black;
+    margin: 20px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+}
+
+.socio1 h2 {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.3em;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+.socio1 .profissao {
+    font-size: 1.2em;
+    margin-left: 5px;
+    color: rgb(3, 95, 3);
+}
+
+.socio1 p {
+    font-size: 20px;
+    margin: 15px, 0;
+}
+
+.socio2 {
+    position: relative;
+    width: 50%;
+    margin: 5px;
+    margin-left: 40px;
+    padding: 5px;
+}
+
+.socio2 img {
+    float: left;
+    width: 37%;
+    border: 1px solid black;
+    margin: 20px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+}
+
+.socio2 h2 {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.3em;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+.socio2 .profissao {
+    font-size: 1.2em;
+    color: rgb(3, 95, 3);
+}
+
+.socio2 p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin: 15px, 0;
+}
+
+.tabela_precos {
+    text-align: center;
+}
+
+.tabela, th, td{
+    position: relative;
+    margin: 1vw auto;
+    border: 1px solid black;
+    text-align: center;
+}
+.produto{
+    text-align: left;      
+    padding-left: 10px;  
+}
+
+#titulo_encomenda {
+    text-align: center;
+    margin-top: 5x;
+}
+
+.dados {
+    width: 50%;
+    text-align: center;
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nome,
+#email,
+#pedido {
+    border-radius: 5%;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+#titulo_informacoes{
+    text-align: center;
+}
+
+.nome {
+    text-align: center;
+    margin-top: 2vw;
+}
+.outras_informacoes label{
+    display: block;
+    text-align: center;
+    margin-top: -1vw;    
+}
+.outras_informacoes textarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.escolha{
+    display: block;
+    margin: 1vw auto; 
+    text-align: center;          
+}
+
+#escolhido p{
+    display: none;
+}
+
+.produtos p{
+    display: none;
+}
+
+#importante {
+    color: red;
+    text-align: center;
+}
+
+#titulo_pedido {
+    display: block;
+    text-align: left;
+    margin-left: 18%;
+}
+
+.botao {
+    
+    font-size: 1.2em;
+    background: #59429d;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    position: relative;
+    left: 43%;
+    
+}
+.botao:hover {
+    background: #CCBBFF;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+ } 
+
+#imagem_localizacao {
+    display: block;
+    position: relative;
+    max-width: 100%;
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#localizacao p {
+    position: relative;
+    text-align: center;
+    margin-top: 25px;
+}
+@media only screen and (max-width: 1230px) {
+    .header {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background: rgb(3, 58, 35);
+    }
+    .logo {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .logo img {
+        border-radius: 50%;
+        margin-top: 15px;
+    }
+    .titulo {
+        position: relative;
+        width: 100%;
+        top: 35px;
+        font-size: 40px;
+        left: 0;
+        text-align: center;
+    }
+    .menu {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .menu li {
+        float: none;
+        display: block;
+    }
+    .menu a {
+        font-weight: normal;
+        color: rgb(128, 236, 160);
+        font-size: 42px;
+    }
+    #nacozinha h1 {
+        font-size: 25px;
+    }
+    .socios {
+        display: block;
+    }
+    .socio1 {
+        width: 100%;
+        margin: 10px;
+        border: none;
+        text-align: center;
+    }
+    .socio1 h2 {
+        font-size: 5vw;
+    }
+    .socio1 .profissao {
+        font-size: 3vw;
+        text-align: center;
+    }
+    .socio1 p {
+        font-size: normal;
+        font-size: 3vw;
+        margin: 5px 0;
+        text-align: justify;
+    }
+    .socio2 {
+        width: 100%;
+        margin: 10px;
+        border: none;
+        text-align: center;
+    }
+    .socio2 h2 {
+        font-size: 5vw;
+    }
+    .socio2 .profissao {
+        font-size: 3vw;
+        text-align: center;
+    }
+    .socio2 p {
+        font-size: normal;
+        font-size: 3vw;
+        margin: 5px;
+        text-align: justify;
+    }
+    #cardapio h1 {
+    font-size: 25px;
+    }
+    #sugestoes h1 {
+        font-size: 25px;
+    }
+    #encomendas h1 {
+        font-size: 25px;
+    }
+
+    .tabela{
+        margin: 0 auto;
+        width: 70%;
+    }
+    #localizacao h1 {
+        font-size: 25px;
+    }
+    .pedido {
+        width: 10vw;
+    }
+    #localizacao p {
+        font-size: 16px;
+}
+@media only screen and (max-width: 1000px) {
+    .titulo {
+        font-size: 42px;
+    }
+    .menu a {
+        color: darkgreen;
+        font-size: 37px;
+}
+@media only screen and (max-width: 750px) {
+    .header {
+        background: black;
+    }
+    .titulo {
+        font-size: 37px;
+    }
+    .menu li {
+        margin: 50px;
+    }
+    .menu a {
+        color: white;
+        font-size: 30px;
+}
+@media only screen and (max-width: 450px) {
+    .titulo {
+        font-size: 30px;
+    }
+    .menu li {
+        margin: 60px;
+    }
+    .menu a {
+        font-size: 25px;
+}
+
+
+
+
